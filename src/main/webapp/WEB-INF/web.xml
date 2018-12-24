@@ -1,0 +1,58 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+    <display-name>Archetype Created Web Application</display-name>
+
+    <servlet>
+        <servlet-name>passengerCount</servlet-name>
+        <servlet-class>com.lihaogn.web.passengerCount</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>pickUp</servlet-name>
+        <servlet-class>com.lihaogn.web.pickUp</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>pickUpDateTimeDay</servlet-name>
+        <servlet-class>com.lihaogn.web.pickUpDateTimeDay</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>pickUpDateTimeDayOfTime</servlet-name>
+        <servlet-class>com.lihaogn.web.pickUpDateTimeDayOfTime</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>tripdistance</servlet-name>
+        <servlet-class>com.lihaogn.web.tripDistance</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>tripTimeInSecsPartition</servlet-name>
+        <servlet-class>com.lihaogn.web.tripTimeInSecsPartition</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>passengerCount</servlet-name>
+        <url-pattern>/passengerCount</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>pickUp</servlet-name>
+        <url-pattern>/pickUp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>pickUpDateTimeDay</servlet-name>
+        <url-pattern>/pickUpDateTimeDay</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>pickUpDateTimeDayOfTime</servlet-name>
+        <url-pattern>/pickUpDateTimeDayOfTime</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>tripdistance</servlet-name>
+        <url-pattern>/tripdistance</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>tripTimeInSecsPartition</servlet-name>
+        <url-pattern>/tripTimeInSecsPartition</url-pattern>
+    </servlet-mapping>
+</web-app>
